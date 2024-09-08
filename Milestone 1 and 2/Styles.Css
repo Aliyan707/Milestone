@@ -1,0 +1,68 @@
+h1{
+    text-align: center;
+    border-radius: 8px solid;
+    width: 100%; 
+    color: #050505;
+    font: 50px "Times New Roman", Times, Serif;
+    
+    
+}
+
+
+
+body {
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #b3e5ec;
+}
+
+.container {
+    
+    align-items: center;
+    width: 30%;
+    max-width: 700px;
+    margin: 15px auto;
+    background-color: #b3e5ec;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px ;
+}
+
+.form-container, .resume-container {
+    padding: 60px;
+    flex: 1;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 2px;
+    color: #000000;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 70%;
+    height: 100% ;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    align-items:center;
+    padding: 10px 20px;
+    background-color: grey;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(117, 202, 255);
+}
